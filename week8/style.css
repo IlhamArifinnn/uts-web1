@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #eaeaea;
+  font-family: sans-serif;
+}
+
+.container {
+  margin-top: 20px;
+  width: 60%;
+  background-color: beige;
+  border-radius: 8px;
+}
+
+.container fieldset {
+  border: 3px solid;
+  border-radius: 5px;
+}
+.container form fieldset legend {
+  margin-left: 20px;
+}
+
+table {
+  width: 80%;
+  padding: 20px;
+  margin: auto;
+}
+table tr {
+  margin-bottom: 20px;
+}
+table tr td {
+  text-align: end;
+  padding: 6px;
+}
+table tr .isi {
+  padding-left: 20px;
+  text-align: start;
+}
+
+table tr .btn {
+  text-align: center;
+  padding: 20px;
+}
+table tr .btn #btn1 {
+  background-color: lightgreen;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+table tr .btn #btn2 {
+  background-color: lightcoral;
+  padding: 10px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}

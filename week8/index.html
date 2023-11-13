@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UTS PW1</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form action="#">
+        <fieldset>
+          <legend>Form Registrasi Tempat Rekreasi Wisata</legend>
+          <table>
+            <tr>
+              <td><label for="nama-tempat">Nama Tempat Wisata:</label></td>
+              <td class="isi"><input type="text" name="nama-tempat"/></td>
+            </tr>
+            <tr>
+              <td><label for="jenis-tempat">Jenis Tempat:</label></td>
+              <td class="isi">
+                <select name="jenis-tempat">
+                  <option value="taman">Taman</option>
+                  <option value="taman">Taman1</option>
+                  <option value="taman">Taman2</option>
+                  <option value="taman">Taman3</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td><label for="deskripsi-wisata">Deskripsi Wisata:</label></td>
+              <td class="isi">
+                <textarea name="deskripsi" cols="20" rows="3" ></textarea>
+              </td>
+            </tr>
+            <tr>
+              <td><label for="kontak">Kontak Person:</label></td>
+              <td class="isi"><input type="tel" /></td>
+            </tr>
+            <tr>
+              <td><label for="nomor-hp">No HP/Telpon:</label></td>
+              <td class="isi"><input type="tel" /></td>
+            </tr>
+            <tr>
+              <td><label for="email">Email:</label></td>
+              <td class="isi"><input type="email" /></td>
+            </tr>
+            <tr>
+              <td><label for="alamat-web">Alamat Web:</label></td>
+              <td class="isi"><input type="text" value="https://" /></td>
+            </tr>
+            <tr>
+              <td><label for="alamat-lengkap">Alamat Lengkap:</label></td>
+              <td class="isi">
+                <textarea name="alamat-lengkap" cols="20" rows="3"></textarea>
+              </td>
+            </tr>
+            <tr>
+              <td><label for="latitude">Latitude, Longitude:</label></td>
+              <td class="isi"><input type="text" /></td>
+            </tr>
+            <tr>
+              <td colspan="2" class="btn">
+                <input type="submit" value="Daftar" id="btn1" />
+                <input type="reset" value="Batal" id="btn2"/>
+              </td>
+            </tr>
+          </table>
+        </fieldset>
+      </form>
+    </div>
+  </body>
+</html>
